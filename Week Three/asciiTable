@@ -1,0 +1,9 @@
+def get_number(lower, upper):
+    lower = input("Please enter a number between 1-50")
+    while lower < 1 and lower > 50:
+        continue
+lower = 10
+upper = 100
+for i in range(10, 100, 1):
+ print("{} {}".format(i, chr(i)))
+#print("Enter a number {} - {}".format(lower, upper))

@@ -1,0 +1,8 @@
+finished = False
+result = 0
+while finished == False:
+    number = input(int("Please enter a number"))
+    if number != True:
+        print("Please enter a valid integer")
+        continue
+print("Valid result is:', result")

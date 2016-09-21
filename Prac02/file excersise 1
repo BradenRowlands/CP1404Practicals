@@ -1,0 +1,4 @@
+outFile = open("name.txt", "w")
+name = input("What's your name? ")
+print(name, file=outFile)
+outFile.close()
